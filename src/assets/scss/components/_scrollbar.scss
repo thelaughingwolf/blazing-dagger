@@ -1,0 +1,30 @@
+/* Scrollbar styling for React Custom Scrollbars:
+ * https://github.com/malte-wessel/react-custom-scrollbars/blob/master/docs/customization.md
+ */
+
+@mixin rcs-custom-thumb-active {
+	background-color:#000a;
+}
+
+.rcs-custom {
+	&.rcs-custom-track {
+		z-index:20; display:unset!important;
+		&.rcs-custom-vertical {
+			width:20px!important; padding-left:12px;
+		}
+		&.rcs-custom-horizontal {
+			height:20px!important; padding-top:12px;
+		}
+		&:hover, &:active {
+			> .rcs-custom-thumb {
+				@include rcs-custom-thumb-active();
+			}
+		}
+	}
+	&.rcs-custom-thumb {
+		border-radius:20px; background-color:#0005; cursor:pointer; transition-property:border-color,background-color; transition-duration:0.15s; transition-timing-function:ease-in-out;
+		&:hover, &:active {
+			@include rcs-custom-thumb-active();
+		}
+	}
+}
