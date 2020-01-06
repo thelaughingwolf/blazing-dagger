@@ -173,10 +173,7 @@ class Main extends React.Component {
 						<img src={pic01} alt="" />
 					</span> */}
 					<p>
-						Welcome to my site! Thanks for checking it out. This site was a way
-						to learn Gatsby and to make my personal mark on the web after
-						spending years making companies’ marks on the web for them.
-						By the way, check out my <a href="#work" onClick={() => {this.props.onOpenArticle('work')}}>awesome work</a>.
+						Welcome to my site! Thanks for checking it out. This site was a way to learn Gatsby and to make my personal mark on the web after spending years making companies’ marks on the web for them. By the way, check out my <a href="#work" onClick={() => {this.props.onOpenArticle('work')}}>awesome work</a>.
 					</p>
 				</Article>
 
@@ -186,15 +183,10 @@ class Main extends React.Component {
 						<img src={pic02} alt="" />
 					</span> */}
 					<p>
-						In the early days I designed and built apps in PHP. Once we shifted
-						to Node, we used Sails as a back end (pro tip: don’t use Sails) and
-						AngularJS as a front end.
+						In the early days I designed and built apps in PHP. Once we shifted to Node, we used Sails as a back end (pro tip: don’t use Sails) and AngularJS as a front end.
 					</p>
 					<p>
-						In addition to company work, I also host websites. I only have
-						<a href="https://littlebitterrootranch.com" target="_blank">a</a>
-						<a href="https://hotspringsbiblechurch.com" target="_blank">couple</a>
-						right now, but I’m always happy to add more!
+						In addition to company work, I also host websites. I only have <a href="https://littlebitterrootranch.com" target="_blank">a</a> <a href="https://hotspringsbiblechurch.com" target="_blank">couple</a> right now, but I’m always happy to add more!
 					</p>
 					{close}
 				</Article>
@@ -205,12 +197,7 @@ class Main extends React.Component {
 						<img src={pic03} alt="" />
 					</span> */}
 					<p>
-						My name is Michael Bennett. I’m a firm Christian, dedicated
-						husband, and proud father to two adorable kids. I’m also a mostly-
-						JavaScript programmer, although I’ve used PHP enough to appreciate
-						(and, sometimes, bemoan) its quirks, too. I live in Montana, which
-						is gorgeous, if a little lacking in web developers - I’m trying to
-						do my part to increase the ratio!
+						My name is Michael Bennett. I’m a firm Christian, dedicated husband, and proud father to two adorable kids. I’m also a mostly-JavaScript programmer, although I’ve used PHP enough to appreciate (and, sometimes, bemoan) its quirks, too. I live in Montana, which is gorgeous, if a little lacking in web developers - I’m trying to do my part to increase the ratio!
 					</p>
 					{close}
 				</Article>
