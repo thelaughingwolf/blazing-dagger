@@ -5,6 +5,9 @@ yarn-error.log
 package-lock.json
 yarn.lock
 
+# Visual Studio settings
+/.vscode
+
 # Build directory
 /public
 .DS_Store
