@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "The Laughing Wolf",
     author: "Michael Bennett",
-    description: "Custom website development from the wilds of Montana"
+		description: "Custom website development from the wilds of Montana",
+		siteUrl: "https://thelaughingwolf.net"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
