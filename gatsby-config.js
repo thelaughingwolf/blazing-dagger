@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "The Laughing Wolf",
+    author: "Michael Bennett",
+    description: "Custom website development from the wilds of Montana"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'The Laughing Wolf',
+        short_name: 'thelaughingwolf',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#2c242a',
+        theme_color: '#2c242a',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/laughing-icon.png', // This path is relative to the root of the site.
       },
 		},
     'gatsby-plugin-sass',
