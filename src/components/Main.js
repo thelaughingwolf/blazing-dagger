@@ -46,7 +46,7 @@ class ContactForm extends React.Component {
 	async handleSubmit(event) {
 		event.preventDefault();
 
-		let response = this.props.onSubmitContactForm(this.state.values);
+		let response = await this.props.onSubmitContactForm(this.state.values);
 
 		if (response.data.success) {
 			this.setState({
